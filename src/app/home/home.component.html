@@ -1,0 +1,14 @@
+<button class="btn btn-primary" style="float:right;" routerLink="addQuestion">Add a Question</button>
+<h3 *ngIf="selectedTag">{{selectedTag}}</h3>
+<h3 class="text-secondary">All Questions</h3>
+<h4>{{questionsCount}} questions</h4>
+<nav>
+    <ul class="nav nav-pills justify-content-end">
+        <li class="nav-item" *ngFor="let item of (sort|objkeys)">
+            <a [className]="item==sortBy ? 'nav-link active' : 'nav-link' " (click)="sortOrder(item)">{{sort[item]}}</a>
+        </li>
+    </ul>
+</nav>
+<hr />
+<app-questions-list [sortBy]="sortBy" (count)="count($event)" (selected)="selected($event)"></app-questions-list>
+<router-outlet></router-outlet>

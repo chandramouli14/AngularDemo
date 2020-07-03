@@ -1,0 +1,338 @@
+{
+  "tags": {
+    "tags": [
+      "C Programming",
+      "Java",
+      "JavaScript",
+      "Dotnet",
+      "Angular",
+      "React",
+      "Html",
+      "CSS",
+      "Bootstrap",
+      "Python",
+      "Artificial Intelligence"
+    ]
+  },
+  "questions": [
+    {
+      "id": 1,
+      "title": "First Question Heading",
+      "body": "First Question Body",
+      "tags": [
+        "sampletag1",
+        "sampletag2",
+        "sampletag3"
+      ],
+      "votes": 6,
+      "answers": [
+        {
+          "answerId": "101",
+          "votes": 5,
+          "body": "sample answer1"
+        },
+        {
+          "answerId": "102",
+          "votes": 7,
+          "body": "sample Answer2"
+        }
+      ],
+      "createdDate": "Sun Dec 17 1995 00:00:00 GMT+0530 (India Standard Time)"
+    },
+    {
+      "id": 2,
+      "title": "Second Question Heading",
+      "body": "Secoond Question Body",
+      "tags": [
+        "sampletag1",
+        "sampletag2",
+        "sampletag3"
+      ],
+      "votes": 12,
+      "answers": [
+        {
+          "answerId": "103",
+          "votes": 8,
+          "body": "sample answer1"
+        },
+        {
+          "answerId": "104",
+          "votes": 17,
+          "body": "sample Answer2"
+        }
+      ],
+      "createdDate": "Sun Dec 17 1996 00:00:00 GMT+0530 (India Standard Time)"
+    },
+    {
+      "id": 3,
+      "title": "Third Question Heading",
+      "body": "Third Question Body",
+      "tags": [
+        "sampletag1",
+        "sampletag2",
+        "sampletag3"
+      ],
+      "votes": 23,
+      "answers": [
+        {
+          "answerId": "105",
+          "votes": 8,
+          "body": "sample answer1"
+        },
+        {
+          "answerId": "106",
+          "votes": 9,
+          "body": "sample Answer2"
+        },
+        {
+          "votes": 3,
+          "answerId": "_yrw64k0ha",
+          "body": "<h2>asasas</h2><p><strong>assas</strong></p>"
+        }
+      ],
+      "createdDate": "Sun Dec 21 1995 00:00:00 GMT+0530 (India Standard Time)"
+    },
+    {
+      "id": 4,
+      "title": "Fourth Question Heading",
+      "body": "Fourth Question Body",
+      "tags": [
+        "sampletag1",
+        "sampletag2",
+        "sampletag3"
+      ],
+      "votes": 46,
+      "answers": [
+        {
+          "answerId": "107",
+          "votes": 15,
+          "body": "sample answer1"
+        },
+        {
+          "answerId": "108",
+          "votes": 72,
+          "body": "sample Answer2"
+        }
+      ],
+      "createdDate": "Sun Dec 17 1998 00:00:00 GMT+0530 (India Standard Time)"
+    },
+    {
+      "id": 105,
+      "title": "Fifth Question Heading",
+      "body": "Fifth Question Body",
+      "tags": [
+        "sampletag1",
+        "sampletag2",
+        "sampletag3"
+      ],
+      "votes": 36,
+      "answers": [
+        {
+          "answerId": "109",
+          "votes": 35,
+          "body": "sample answer1"
+        },
+        {
+          "answerId": "110",
+          "votes": 47,
+          "body": "sample Answer2"
+        }
+      ],
+      "createdDate": "Sun Dec 17 2000 00:00:00 GMT+0530 (India Standard Time)"
+    },
+    {
+      "id": 6,
+      "title": "Sixth Question Heading",
+      "body": "Sixth Question Body",
+      "tags": [
+        "sampletag1",
+        "sampletag2",
+        "sampletag3"
+      ],
+      "votes": 63,
+      "answers": [
+        {
+          "answerId": "111",
+          "votes": 65,
+          "body": "sample answer1"
+        },
+        {
+          "answerId": "112",
+          "votes": 7,
+          "body": "sample Answer2"
+        }
+      ],
+      "createdDate": "Sun Dec 17 2004 00:00:00 GMT+0530 (India Standard Time)"
+    },
+    {
+      "id": 7,
+      "title": "Seventh Question Heading",
+      "body": "Seventh Question Body",
+      "tags": [
+        "sampletag1",
+        "sampletag2",
+        "sampletag3"
+      ],
+      "votes": 87,
+      "answers": [
+        {
+          "answerId": "114",
+          "votes": 47,
+          "body": "sample Answer2"
+        },
+        {
+          "answerId": "113",
+          "votes": 15,
+          "body": "sample answer1"
+        },
+        {
+          "votes": 12,
+          "answerId": "_c1voxt31t",
+          "body": "<ul><li>bvvuvuyvyuvyu</li><li>ererer</li><li>ererer</li><li>ererer</li></ul><p><strong>huh87hy78gdfd</strong></p>"
+        },
+        {
+          "votes": 5,
+          "answerId": "121",
+          "body": "<h2>Sample Answer</h2><ol><li>sdsd</li><li>sdsd</li><li>sdsd</li><li>wdwewe</li><li>sdsdsd</li></ol>"
+        }
+      ],
+      "createdDate": "Sun Dec 17 2002 00:00:00 GMT+0530 (India Standard Time)"
+    },
+    {
+      "id": 8,
+      "title": "Eighth Question Heading",
+      "body": "Eighth Question Body",
+      "tags": [
+        "sampletag1",
+        "sampletag2",
+        "sampletag3"
+      ],
+      "votes": 61,
+      "answers": [
+        {
+          "answerId": "115",
+          "votes": 97,
+          "body": "sample answer1"
+        },
+        {
+          "answerId": "117",
+          "votes": 38,
+          "body": "sample Answer3"
+        },
+        {
+          "answerId": "116",
+          "votes": 42,
+          "body": "sample Answer2"
+        }
+      ],
+      "createdDate": "Sun Dec 17 2012 00:00:00 GMT+0530 (India Standard Time)"
+    },
+    {
+      "tags": [
+        "assdsd"
+      ],
+      "votes": 0,
+      "answers": [],
+      "createdDate": "2020-07-01T09:25:23.455Z",
+      "title": "sdsdsdsdsdsd",
+      "body": "<h2>hellodsdsd</h2><ol><li><strong>sdsdsd</strong></li><li><strong>sdsd</strong></li></ol><ul><li><i>sdsdsdsd</i></li><li><i>sdsd</i></li><li><i>sdsd</i></li><li><i>sdsdds</i></li></ul>",
+      "id": 106
+    },
+    {
+      "tags": [
+        "ererre"
+      ],
+      "votes": 0,
+      "answers": [],
+      "createdDate": "2020-07-01T09:30:10.191Z",
+      "title": "sdsde3r34",
+      "body": "<h2>dfdfdfdf</h2><p>dfdf</p><ol><li>dfdfdf<ol><li>fddfdfdfdf</li><li>dfdf</li><li>dfdf</li></ol></li><li>dfdffdf</li><li>dfdf</li><li>dfdf</li><li>erer</li></ol>",
+      "id": 107
+    },
+    {
+      "tags": [
+        "sdsdsd fgfg"
+      ],
+      "votes": 0,
+      "answers": [
+        {
+          "votes": 2,
+          "answerId": "_8chnlmne2",
+          "body": "<h3>asasasas</h3>"
+        }
+      ],
+      "createdDate": "2020-07-01T11:32:56.789Z",
+      "title": "New title",
+      "body": "<ol><li>sdsdsd</li><li>sdsd</li><li>sdsd</li></ol><ul><li>dsdesdsds</li><li>sdsd</li><li>sdsdfdf</li></ul>",
+      "id": 108
+    },
+    {
+      "tags": [
+        "Angular"
+      ],
+      "votes": 10,
+      "answers": [
+        {
+          "votes": 5,
+          "answerId": "_k27k6zbk6",
+          "body": "<p>Here are some of the links you can learn and get documentation of Angular</p><ul><li><a href=\"https://angular.io/guide\">https://angular.io/guide</a></li><li><a href=\"https://devdocs.io/angular~4/\">https://devdocs.io/angular~4/</a></li><li><a href=\"https://docs.angularjs.org/guide\">https://docs.angularjs.org/guide</a><span class=\"ck-fake-link-selection ck-fake-link-selection_collapsed\"></span></li></ul>"
+        }
+      ],
+      "createdDate": "2020-07-03T09:07:11.283Z",
+      "title": "Need Documentation on Angualr",
+      "body": "<p><strong>I need Angular documentation to learn</strong></p><p>can anyone please provide some links to learn</p>",
+      "id": 109
+    },
+    {
+      "tags": [
+        "JavaScript"
+      ],
+      "votes": 20,
+      "answers": [
+        {
+          "votes": 16,
+          "answerId": "_2zfhseayn",
+          "body": "<p>Here are some online editors for Javascript for You to practice:</p><ul><li><a href=\"https://js.do/\">https://js.do/</a></li><li><a href=\"https://playcode.io/online-javascript-editor\">https://playcode.io/online-javascript-editor</a></li><li><a href=\"https://jsfiddle.net/\">https://jsfiddle.net/</a></li></ul><p>I think this will help you.</p>"
+        }
+      ],
+      "createdDate": "2020-07-03T09:12:29.659Z",
+      "title": "Editors for Javascript",
+      "body": "<p><strong>Can anyone provide online editors for Javascript to learn</strong></p>",
+      "id": 110
+    },
+    {
+      "tags": [
+        "JavaScript"
+      ],
+      "votes": 22,
+      "answers": [
+        {
+          "votes": 22,
+          "answerId": "_h57obk5r4",
+          "body": "<p>By Using sort function you can easily sort the data of an array.</p><p>Ex: let arr=[20,445,12,32,21,45]</p><p>&nbsp; &nbsp; &nbsp; &nbsp;arr=arr.sort((a,b)=&gt;a&gt;b?1:a&lt;b?-1:0)<br>&nbsp; &nbsp; &nbsp; &nbsp;console.log(arr); &nbsp; &nbsp;// prints &nbsp;[12, 20, 21, 32, 45, 445]</p>"
+        }
+      ],
+      "createdDate": "2020-07-03T09:19:17.468Z",
+      "title": "How to sort the elements in an Array in Js",
+      "body": "<p>I need to sort the elements in an array based on their values</p><p>let arr=[20,445,12,32,21,45]</p><p>can anyone provide.How to do this?</p>",
+      "id": 111
+    },
+    {
+      "tags": [
+        "JavaScript"
+      ],
+      "votes": 24,
+      "answers": [
+        {
+          "votes": 20,
+          "answerId": "_dm9tqm48s",
+          "body": "<p>You can use like this to get key as given string,</p><p>const key = 'name'</p><p>const tempObj = {[key]: 'shiyuq'}</p><p>console.log(tempObj) //{'name':'shiyug'}</p>"
+        }
+      ],
+      "createdDate": "2020-07-03T09:29:39.003Z",
+      "title": "Javascript modify object key value",
+      "body": "<p>const key = 'name'\n</p><p>const tempObj = {key: 'shiyuq'}\n</p><p>console.log(tempObj)\n// {key: 'shiyuq'}\n</p><p>// but I want a object like this &nbsp;{name: 'shiyuq'}</p>",
+      "id": 112
+    }
+  ]
+}

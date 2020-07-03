@@ -1,0 +1,31 @@
+<div class="form-group">
+    <label>Title</label>
+    <input type="text" class="form-control" placeholder="Enter your question title" [(ngModel)]="title"
+        #questionTitle="ngModel" required><br />
+</div>
+<div class="form-group">
+    <ckeditor [editor]="Editor" [(ngModel)]="model.editorData"></ckeditor>
+</div>
+<br />
+<div class="autocomplete">
+    <label for="tags">Tags</label><br />
+    <div class="chips-input-container">
+        <div class="user-chip" *ngFor="let user of userSelects">
+            {{user}}
+            <span (click)="deleteSelects(user)" class="delete-icon-chip">&#10006;</span>
+        </div>
+        <input name="suggestion" #search="ngModel" type="text" placeholder="Enter Your Tags" [className]="'inputStyle'"
+            (keyup.enter)="addNewTag()" (keyup)="showSuggestion()" [(ngModel)]="tag">
+        <div class="autocomplete-items" *ngIf="show">
+            <div *ngFor="let s of showOptions" (click)="selectSuggestion(s)">{{ s }}</div>
+        </div>
+    </div>
+</div>
+<br />
+<div class="row">
+    <div class="col-sm-6 pull-right">
+        <button class="btn btn-primary" (click)="submit()" 
+        [disabled]="isDisable()">Post Your Question</button>
+        <a class="btn btn-seconday" (click)="cancel()">Cancel</a>
+    </div>
+</div>
