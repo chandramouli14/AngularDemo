@@ -1,8 +1,8 @@
 <div *ngIf="notFound">
     <p class="text-danger text-center">Sorry Question with this Id is not available</p>
-        <div align="center">
-            <button routerLink="../../"> Back</button>
-        </div>
+    <div align="center">
+        <button routerLink="../../"> Back</button>
+    </div>
 </div>
 <div *ngIf="!notFound">
     <button class="btn btn-primary" style="float:right;" routerLink="../../addQuestion">Add a Question</button>
@@ -22,24 +22,30 @@
                     <nav>
                         <ul class="nav nav-pills">
                             <li class="nav-item" *ngFor="let item of question.tags">
-                                <a class='nav-link' >
+                                <a class='nav-link'>
                                     {{item}}
                                 </a>
                             </li>
                         </ul>
                     </nav>
-                    <a [routerLink]="['../../addQuestion',question.id]">Edit</a>
+                    <span class="col-sm-3"> <a [routerLink]="['../../addQuestion',question.id]">Edit</a>
+                    </span>
+                    <span> <a class="active" (click)="deleteQuestion(question.id)">Delete</a></span>
                 </div>
             </div>
             <hr />
-
-            <div class="row sm-flex-center">
-                <div class="col-sm-3">
-                    <h4>{{question.answers?.length}} answers</h4>
-                </div>
-            </div>
-            <br />
-            <div *ngFor="let answer of question.answers">
+        </div>
+    </div>
+    <br />
+    <div class="row sm-flex-center">
+        <div class="col-sm-3">
+            <h4>{{question.answers?.length}} answers</h4>
+        </div>
+    </div>
+    <br />
+    <virtual-scroller #scroll [items]="question.answers" [checkResizeInterval]="100" *ngIf="question.answers.length>0">
+        <div class="card" *ngFor="let answer of scroll.viewPortItems">
+            <div class="container card-body">
                 <div class="row sm-flex-center">
                     <div class="col-sm-1">
                         <div class="text-muted text-center" (click)="increaseAnswerVotes(answer.answerId)">
@@ -51,12 +57,14 @@
                     <div class="col-sm-10 pull-right">
                         <div class="card-subtitle mb-2 " [innerHTML]="answer.body">
                         </div>
-                        <a [routerLink]="['/editAnswer',{id:question.id,answerId:answer.answerId}]">Edit</a>
+                        <span class="col-sm-3"> <a
+                                [routerLink]="['/editAnswer',{id:question.id,answerId:answer.answerId}]">Edit</a></span>
+                        <span> <a class="active" (click)="deleteAnswer(answer.answerId)">Delete</a></span>
                     </div>
                 </div>
-                <hr />
             </div>
-           <app-post-answers (answer)="saveAnswer($event)"></app-post-answers>
         </div>
-    </div>
+    </virtual-scroller>
+    <br />
+    <app-post-answers (answer)="saveAnswer($event)"></app-post-answers>
 </div>

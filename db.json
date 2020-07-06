@@ -11,7 +11,8 @@
       "CSS",
       "Bootstrap",
       "Python",
-      "Artificial Intelligence"
+      "Artificial Intelligence",
+      "3r4r4"
     ]
   },
   "questions": [
@@ -119,7 +120,7 @@
     {
       "id": 105,
       "title": "Fifth Question Heading",
-      "body": "Fifth Question Body",
+      "body": "<h2>Fifth Question Body</h2><ul><li>dfrrtr</li><li>u,lilo</li><li>kolo</li></ul>",
       "tags": [
         "sampletag1",
         "sampletag2",
@@ -127,11 +128,6 @@
       ],
       "votes": 36,
       "answers": [
-        {
-          "answerId": "109",
-          "votes": 35,
-          "body": "sample answer1"
-        },
         {
           "answerId": "110",
           "votes": 47,
@@ -178,7 +174,7 @@
         {
           "answerId": "114",
           "votes": 47,
-          "body": "sample Answer2"
+          "body": "<h4><strong>sample Answer2</strong></h4>"
         },
         {
           "answerId": "113",
@@ -197,35 +193,6 @@
         }
       ],
       "createdDate": "Sun Dec 17 2002 00:00:00 GMT+0530 (India Standard Time)"
-    },
-    {
-      "id": 8,
-      "title": "Eighth Question Heading",
-      "body": "Eighth Question Body",
-      "tags": [
-        "sampletag1",
-        "sampletag2",
-        "sampletag3"
-      ],
-      "votes": 61,
-      "answers": [
-        {
-          "answerId": "115",
-          "votes": 97,
-          "body": "sample answer1"
-        },
-        {
-          "answerId": "117",
-          "votes": 38,
-          "body": "sample Answer3"
-        },
-        {
-          "answerId": "116",
-          "votes": 42,
-          "body": "sample Answer2"
-        }
-      ],
-      "createdDate": "Sun Dec 17 2012 00:00:00 GMT+0530 (India Standard Time)"
     },
     {
       "tags": [
@@ -297,7 +264,7 @@
       ],
       "createdDate": "2020-07-03T09:12:29.659Z",
       "title": "Editors for Javascript",
-      "body": "<p><strong>Can anyone provide online editors for Javascript to learn</strong></p>",
+      "body": "<p><strong>Can anyone provide online editors for Javascript to learn?</strong></p>",
       "id": 110
     },
     {
@@ -333,6 +300,28 @@
       "title": "Javascript modify object key value",
       "body": "<p>const key = 'name'\n</p><p>const tempObj = {key: 'shiyuq'}\n</p><p>console.log(tempObj)\n// {key: 'shiyuq'}\n</p><p>// but I want a object like this &nbsp;{name: 'shiyuq'}</p>",
       "id": 112
+    },
+    {
+      "tags": [
+        "JavaScript"
+      ],
+      "votes": 17,
+      "answers": [
+        {
+          "votes": 10,
+          "answerId": "_nf6akwi2t",
+          "body": "<p>You can use delete first and last elements using Shift and Pop functions</p><p>var ar = [1, 2, 3, 4, 5, 6];</p><p><strong>ar.pop();&nbsp;</strong></p><p>console.log(ar) &nbsp; //[1,2,3,4,5]</p><p><strong>ar.shift()</strong></p><p>console.log(ar) &nbsp; //[2,3,4,5]</p>"
+        },
+        {
+          "votes": 26,
+          "answerId": "_1jau4i4p2",
+          "body": "<p>You can also use Splice function to delete elements of an array.</p><p>This helps to delete element at any index and delete multiple elements.</p><p>var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];</p><p>var removed =<strong> arr.splice(2,2);</strong></p><p>console.log(removed) &nbsp;//[1,2,5,6,7,8,9,0]</p>"
+        }
+      ],
+      "createdDate": "2020-07-06T06:01:15.408Z",
+      "title": "Delete elements of an Array",
+      "body": "<p>Can anyone tell me How to delete the elements of an array ?</p><p>Also provide different ways of delete an elements in an array.</p>",
+      "id": 113
     }
   ]
 }

@@ -25,6 +25,10 @@ export class QuestionsService {
     this.http.put(this.url.questions+question.id, question).subscribe(data => console.log(data))
   }
 
+  deleteQuestion(id:number){
+    this.http.delete(this.url.questions+id).subscribe(data=>console.log(data))
+  }
+
   addQuestion(question: Question): any {
     return this.http.post(this.url.questions, question)
   }

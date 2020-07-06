@@ -57,10 +57,9 @@ export class AddQuestionComponent implements OnInit {
       this.question = new Question(this.title, this.model.editorData, this.userSelects)
       this.service.addQuestion(this.question).subscribe(data => {
         alert("Your Question added Successfully");
-        // this.router.navigate([""])
+       this.cancel()
       })
     }
-    this.cancel()
     this.service.updateTags(this.tags)
   }
   cancel() {
@@ -70,7 +69,7 @@ export class AddQuestionComponent implements OnInit {
     else {
       this.model.editorData = this.title = this.tag = '';
       this.userSelects = []
-      this.router.navigate([""])
+      this.router.navigate(["/home"])
     }
   }
 

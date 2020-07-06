@@ -29,6 +29,27 @@ export class QuestionsViewComponent implements OnInit {
     },
       err => this.notFound = true)
   }
+
+  deleteQuestion(id:number){
+    let decision=confirm("Do you want Delete the selected question");
+    if(decision){
+      this.questionsService.deleteQuestion(id);
+      this.router.navigate(["/home"])
+    }
+  }
+  deleteAnswer(id:string){
+    let decision=confirm("Do you want to delete the selected answer");
+    let index=0;
+    if(decision)
+    {
+      this.question.answers.forEach(answer=>{
+        if(answer.answerId!=id)
+        index++
+      });
+      this.question.answers.splice(index,1);
+      this.updateData();
+    }
+  }
   increaseVotes() {
     this.question.votes++;
     this.updateData()
