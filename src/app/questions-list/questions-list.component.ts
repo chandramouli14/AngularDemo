@@ -1,3 +1,4 @@
+import { ActivatedRoute } from '@angular/router';
 import { QuestionsService } from './../questions.service';
 import { Component, OnInit, Input, OnChanges, Output, EventEmitter } from '@angular/core';
 import { Questions } from '../questions';
@@ -13,8 +14,8 @@ export class QuestionsListComponent implements OnInit, OnChanges {
   @Output() selected = new EventEmitter();
   questions: Questions[] = new Array();
   displayQuestions: Questions[] = new Array();
-
-  constructor(private service: QuestionsService) {
+  tag: string;
+  constructor(private service: QuestionsService, private route: ActivatedRoute) {
   }
 
   ngOnInit(): void {
@@ -22,7 +23,10 @@ export class QuestionsListComponent implements OnInit, OnChanges {
       this.questions = data;
       this.displayQuestions = data;
       this.count.emit(this.questions.length)
-      this.sortData(this.sortBy)
+      this.sortData(this.sortBy);
+      this.tag = this.route.snapshot.paramMap.get('tag')
+      if (this.tag)
+        this.tagSelected(this.tag)
     });
   }
 

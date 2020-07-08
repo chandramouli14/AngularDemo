@@ -22,7 +22,7 @@ export class QuestionsService {
   }
 
   updateQuestion(question: Questions) {
-    this.http.put(this.url.questions+question.id, question).subscribe(data => console.log(data))
+   return this.http.put(this.url.questions+question.id, question)
   }
 
   deleteQuestion(id:number){

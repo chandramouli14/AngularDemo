@@ -49,7 +49,9 @@ export class AddQuestionComponent implements OnInit {
       this.question.tags = this.userSelects;
       this.question.title = this.title;
       this.question.body = this.model.editorData;
-      this.service.updateQuestion(this.question);
+      this.service.updateQuestion(this.question).subscribe(data=>{
+        this.service.updateTags(this.tags)
+      })
       alert("Your question updated sucessfully")
       this.router.navigate([`home/question/${this.id}`])
     }
@@ -60,7 +62,7 @@ export class AddQuestionComponent implements OnInit {
        this.cancel()
       })
     }
-    this.service.updateTags(this.tags)
+    
   }
   cancel() {
     if (this.id) {

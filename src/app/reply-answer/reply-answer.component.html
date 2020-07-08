@@ -1,0 +1,6 @@
+<h4>Your Reply</h4>
+<ckeditor [editor]="Editor" [(ngModel)]="model.editorData"></ckeditor>
+<br />
+<button class="btn btn-primary" (click)="saveReply()"
+[disabled]="model.editorData.length==0">Save Reply</button>
+<button class="btn btn-secondary" (click)="cancelReply()">Cancel</button>

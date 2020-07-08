@@ -11,8 +11,7 @@
       "CSS",
       "Bootstrap",
       "Python",
-      "Artificial Intelligence",
-      "3r4r4"
+      "Artificial Intelligence"
     ]
   },
   "questions": [
@@ -30,12 +29,14 @@
         {
           "answerId": "101",
           "votes": 5,
-          "body": "sample answer1"
+          "body": "sample answer1",
+          "replies": []
         },
         {
           "answerId": "102",
           "votes": 7,
-          "body": "sample Answer2"
+          "body": "sample Answer2",
+          "replies": []
         }
       ],
       "createdDate": "Sun Dec 17 1995 00:00:00 GMT+0530 (India Standard Time)"
@@ -54,12 +55,14 @@
         {
           "answerId": "103",
           "votes": 8,
-          "body": "sample answer1"
+          "body": "sample answer1",
+          "replies": []
         },
         {
           "answerId": "104",
           "votes": 17,
-          "body": "sample Answer2"
+          "body": "sample Answer2",
+          "replies": []
         }
       ],
       "createdDate": "Sun Dec 17 1996 00:00:00 GMT+0530 (India Standard Time)"
@@ -78,17 +81,20 @@
         {
           "answerId": "105",
           "votes": 8,
-          "body": "sample answer1"
+          "body": "sample answer1",
+          "replies": []
         },
         {
           "answerId": "106",
           "votes": 9,
-          "body": "sample Answer2"
+          "body": "sample Answer2",
+          "replies": []
         },
         {
           "votes": 3,
           "answerId": "_yrw64k0ha",
-          "body": "<h2>asasas</h2><p><strong>assas</strong></p>"
+          "body": "<h2>asasas</h2><p><strong>assas</strong></p>",
+          "replies": []
         }
       ],
       "createdDate": "Sun Dec 21 1995 00:00:00 GMT+0530 (India Standard Time)"
@@ -107,12 +113,14 @@
         {
           "answerId": "107",
           "votes": 15,
-          "body": "sample answer1"
+          "body": "sample answer1",
+          "replies": []
         },
         {
           "answerId": "108",
           "votes": 72,
-          "body": "sample Answer2"
+          "body": "sample Answer2",
+          "replies": []
         }
       ],
       "createdDate": "Sun Dec 17 1998 00:00:00 GMT+0530 (India Standard Time)"
@@ -131,7 +139,8 @@
         {
           "answerId": "110",
           "votes": 47,
-          "body": "sample Answer2"
+          "body": "sample Answer2",
+          "replies": []
         }
       ],
       "createdDate": "Sun Dec 17 2000 00:00:00 GMT+0530 (India Standard Time)"
@@ -150,12 +159,14 @@
         {
           "answerId": "111",
           "votes": 65,
-          "body": "sample answer1"
+          "body": "sample answer1",
+          "replies": []
         },
         {
           "answerId": "112",
           "votes": 7,
-          "body": "sample Answer2"
+          "body": "sample Answer2",
+          "replies": []
         }
       ],
       "createdDate": "Sun Dec 17 2004 00:00:00 GMT+0530 (India Standard Time)"
@@ -174,22 +185,26 @@
         {
           "answerId": "114",
           "votes": 47,
-          "body": "<h4><strong>sample Answer2</strong></h4>"
+          "body": "<h4><strong>sample Answer2</strong></h4>",
+          "replies": []
         },
         {
           "answerId": "113",
           "votes": 15,
-          "body": "sample answer1"
+          "body": "sample answer1",
+          "replies": []
         },
         {
           "votes": 12,
           "answerId": "_c1voxt31t",
-          "body": "<ul><li>bvvuvuyvyuvyu</li><li>ererer</li><li>ererer</li><li>ererer</li></ul><p><strong>huh87hy78gdfd</strong></p>"
+          "body": "<ul><li>bvvuvuyvyuvyu</li><li>ererer</li><li>ererer</li><li>ererer</li></ul><p><strong>huh87hy78gdfd</strong></p>",
+          "replies": []
         },
         {
           "votes": 5,
           "answerId": "121",
-          "body": "<h2>Sample Answer</h2><ol><li>sdsd</li><li>sdsd</li><li>sdsd</li><li>wdwewe</li><li>sdsdsd</li></ol>"
+          "body": "<h2>Sample Answer</h2><ol><li>sdsd</li><li>sdsd</li><li>sdsd</li><li>wdwewe</li><li>sdsdsd</li></ol>",
+          "replies": []
         }
       ],
       "createdDate": "Sun Dec 17 2002 00:00:00 GMT+0530 (India Standard Time)"
@@ -213,7 +228,7 @@
       "answers": [],
       "createdDate": "2020-07-01T09:30:10.191Z",
       "title": "sdsde3r34",
-      "body": "<h2>dfdfdfdf</h2><p>dfdf</p><ol><li>dfdfdf<ol><li>fddfdfdfdf</li><li>dfdf</li><li>dfdf</li></ol></li><li>dfdffdf</li><li>dfdf</li><li>dfdf</li><li>erer</li></ol>",
+      "body": "<h2>dfdfdfdfffg</h2><p>dfdf</p><ol><li>dfdfdf<ol><li>fddfdfdfdf</li><li>dfdf</li><li>dfdf</li></ol></li><li>dfdffdf</li><li>dfdf</li><li>dfdf</li><li>erer</li></ol>",
       "id": 107
     },
     {
@@ -225,7 +240,8 @@
         {
           "votes": 2,
           "answerId": "_8chnlmne2",
-          "body": "<h3>asasasas</h3>"
+          "body": "<h3>asasasas</h3>",
+          "replies": []
         }
       ],
       "createdDate": "2020-07-01T11:32:56.789Z",
@@ -242,7 +258,8 @@
         {
           "votes": 5,
           "answerId": "_k27k6zbk6",
-          "body": "<p>Here are some of the links you can learn and get documentation of Angular</p><ul><li><a href=\"https://angular.io/guide\">https://angular.io/guide</a></li><li><a href=\"https://devdocs.io/angular~4/\">https://devdocs.io/angular~4/</a></li><li><a href=\"https://docs.angularjs.org/guide\">https://docs.angularjs.org/guide</a><span class=\"ck-fake-link-selection ck-fake-link-selection_collapsed\"></span></li></ul>"
+          "body": "<p>Here are some of the links you can learn and get documentation of Angular</p><ul><li><a href=\"https://angular.io/guide\">https://angular.io/guide</a></li><li><a href=\"https://devdocs.io/angular~4/\">https://devdocs.io/angular~4/</a></li><li><a href=\"https://docs.angularjs.org/guide\">https://docs.angularjs.org/guide</a><span class=\"ck-fake-link-selection ck-fake-link-selection_collapsed\"></span></li></ul>",
+          "replies": []
         }
       ],
       "createdDate": "2020-07-03T09:07:11.283Z",
@@ -259,7 +276,8 @@
         {
           "votes": 16,
           "answerId": "_2zfhseayn",
-          "body": "<p>Here are some online editors for Javascript for You to practice:</p><ul><li><a href=\"https://js.do/\">https://js.do/</a></li><li><a href=\"https://playcode.io/online-javascript-editor\">https://playcode.io/online-javascript-editor</a></li><li><a href=\"https://jsfiddle.net/\">https://jsfiddle.net/</a></li></ul><p>I think this will help you.</p>"
+          "body": "<p>Here are some online editors for Javascript for You to practice:</p><ul><li><a href=\"https://js.do/\">https://js.do/</a></li><li><a href=\"https://playcode.io/online-javascript-editor\">https://playcode.io/online-javascript-editor</a></li><li><a href=\"https://jsfiddle.net/\">https://jsfiddle.net/</a></li></ul><p>I think this will help you.</p>",
+          "replies": []
         }
       ],
       "createdDate": "2020-07-03T09:12:29.659Z",
@@ -276,7 +294,8 @@
         {
           "votes": 22,
           "answerId": "_h57obk5r4",
-          "body": "<p>By Using sort function you can easily sort the data of an array.</p><p>Ex: let arr=[20,445,12,32,21,45]</p><p>&nbsp; &nbsp; &nbsp; &nbsp;arr=arr.sort((a,b)=&gt;a&gt;b?1:a&lt;b?-1:0)<br>&nbsp; &nbsp; &nbsp; &nbsp;console.log(arr); &nbsp; &nbsp;// prints &nbsp;[12, 20, 21, 32, 45, 445]</p>"
+          "body": "<p>By Using sort function you can easily sort the data of an array.</p><p>Ex: let arr=[20,445,12,32,21,45]</p><p>&nbsp; &nbsp; &nbsp; &nbsp;arr=arr.sort((a,b)=&gt;a&gt;b?1:a&lt;b?-1:0)<br>&nbsp; &nbsp; &nbsp; &nbsp;console.log(arr); &nbsp; &nbsp;// prints &nbsp;[12, 20, 21, 32, 45, 445]</p>",
+          "replies": []
         }
       ],
       "createdDate": "2020-07-03T09:19:17.468Z",
@@ -293,7 +312,8 @@
         {
           "votes": 20,
           "answerId": "_dm9tqm48s",
-          "body": "<p>You can use like this to get key as given string,</p><p>const key = 'name'</p><p>const tempObj = {[key]: 'shiyuq'}</p><p>console.log(tempObj) //{'name':'shiyug'}</p>"
+          "body": "<p>You can use like this to get key as given string,</p><p>const key = 'name'</p><p>const tempObj = {[key]: 'shiyuq'}</p><p>console.log(tempObj) //{'name':'shiyug'}</p>",
+          "replies": []
         }
       ],
       "createdDate": "2020-07-03T09:29:39.003Z",
@@ -305,23 +325,82 @@
       "tags": [
         "JavaScript"
       ],
-      "votes": 17,
+      "votes": 21,
       "answers": [
-        {
-          "votes": 10,
-          "answerId": "_nf6akwi2t",
-          "body": "<p>You can use delete first and last elements using Shift and Pop functions</p><p>var ar = [1, 2, 3, 4, 5, 6];</p><p><strong>ar.pop();&nbsp;</strong></p><p>console.log(ar) &nbsp; //[1,2,3,4,5]</p><p><strong>ar.shift()</strong></p><p>console.log(ar) &nbsp; //[2,3,4,5]</p>"
-        },
         {
           "votes": 26,
           "answerId": "_1jau4i4p2",
-          "body": "<p>You can also use Splice function to delete elements of an array.</p><p>This helps to delete element at any index and delete multiple elements.</p><p>var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];</p><p>var removed =<strong> arr.splice(2,2);</strong></p><p>console.log(removed) &nbsp;//[1,2,5,6,7,8,9,0]</p>"
+          "body": "<p>You can also use Splice function to delete elements of an array.</p><p>This helps to delete element at any index and delete multiple elements.</p><p>var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];</p><p>var removed =<strong> arr.splice(2,2);</strong></p><p>console.log(removed) &nbsp; &nbsp;// &nbsp;[1,2,5,6,7,8,9,0].</p>",
+          "replies": [
+            {
+              "id": "_h6daf98ov",
+              "body": "<p>asdsdweq34e3434sdsdssdfdgdg</p>"
+            },
+            {
+              "id": "_6ic73b31y",
+              "body": "<p>sdsdwedssae34wewewee3fyfuygiug</p>"
+            }
+          ]
+        },
+        {
+          "votes": 13,
+          "answerId": "_nf6akwi2t",
+          "body": "<p>You can use delete first and last elements using Shift and Pop functions</p><p>var ar = [1, 2, 3, 4, 5, 6];</p><p><strong>ar.pop();&nbsp;</strong></p><p>console.log(ar) &nbsp; //[1,2,3,4,5]</p><p><strong>ar.shift()</strong></p><p>console.log(ar) &nbsp; // &nbsp;[2,3,4,5]</p>",
+          "replies": [
+            {
+              "id": "_c2z0eeoos",
+              "body": "<p>sdseq4w545sdsdasa</p>"
+            }
+          ]
         }
       ],
       "createdDate": "2020-07-06T06:01:15.408Z",
       "title": "Delete elements of an Array",
-      "body": "<p>Can anyone tell me How to delete the elements of an array ?</p><p>Also provide different ways of delete an elements in an array.</p>",
+      "body": "<p>Can anyone tell me How to delete the elements of an array ?</p><p>Also provide different ways of delete an elements in an array.&nbsp;</p>",
       "id": 113
+    },
+    {
+      "tags": [
+        "JavaScript",
+        "React"
+      ],
+      "votes": 0,
+      "answers": [
+        {
+          "votes": 1,
+          "answerId": "_yizu3stl5",
+          "body": "<p>const data = {\n &nbsp; &nbsp;\"this\": \"succeeded\",\n &nbsp; &nbsp;\"by\": \"getting\",\n &nbsp; &nbsp;\"the\": \"dweets\",\n &nbsp; &nbsp;\"with\": [{\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\"thing\": \"shyam__5\",\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\"created\": \"2020-07-03T08:38:01.184Z\",\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\"content\": {\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\"test\": \"test\"\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}\n &nbsp; &nbsp; &nbsp; &nbsp;},\n &nbsp; &nbsp; &nbsp; &nbsp;{\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\"thing\": \"shyam__5\",\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\"created\": \"2020-07-03T08:37:58.068Z\",\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\"content\": {\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;\"yearlyWatts\": 111429.4\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;}\n &nbsp; &nbsp; &nbsp; &nbsp;}\n &nbsp; &nbsp;]\n}\n\nconsole.log(data.with[1].content.yearlyWatts)</p>",
+          "replies": []
+        },
+        {
+          "votes": 0,
+          "answerId": "_oym2q41xt",
+          "body": "<p>ghuhhuhuhuhoijiop uhuhuhoh4</p><p>hvvbugug</p><p>cyvyiu</p><p>yvygguohijiih8ohy8kjb</p>",
+          "replies": []
+        }
+      ],
+      "createdDate": "2020-07-07T08:47:09.259Z",
+      "title": "How to print specific part of json in Javascript?",
+      "body": "<p>I have a json, viewable at <a href=\"https://imgur.com/a/F3kV29F\">https://imgur.com/a/F3kV29F</a> or here <a href=\"https://dweet.io/get/dweets/for/shyam__5\">https://dweet.io/get/dweets/for/shyam__5</a></p><p>In python, I am able to print the yearlyWatts by doing:</p><p>print(collection[1]['content']['yearlyWatts'])</p><p>where collection is the json, done by:</p><p>collection = (dweepy.get_dweets_for('shyam__5'))</p><p>I am trying to do the same thing in Javascript. Currently, I have done:</p><p>getCryptoCurrencyInfo(5)\n &nbsp; &nbsp;.then(currencyInfo =&gt; {\n &nbsp; &nbsp; &nbsp; &nbsp;console.log(currencyInfo[1].yearlyWatts)</p><p>This does not work, I get no output.</p><p>Please do not pay attention to the function getCryptoCurrencyInfo, I would really appreciate if someone could tell me what to write in the console.log(HERE) in order to output the yearly watts of 111255.51</p><p>Any help would be appreciated. Thanks!</p>",
+      "id": 114
+    },
+    {
+      "tags": [
+        "Java"
+      ],
+      "votes": 0,
+      "answers": [
+        {
+          "votes": 0,
+          "answerId": "_xci6c6ao5",
+          "body": "<p>csadsf</p>",
+          "replies": []
+        }
+      ],
+      "createdDate": "2020-07-08T05:14:28.057Z",
+      "title": "sdwr35fds5",
+      "body": "<p>dsfdfsdfefcxf ddtrte</p><p>ssrerer</p><p>ererere23r3fvf</p><p>erererwer2wefrewrseq354445</p>",
+      "id": 115
     }
   ]
 }

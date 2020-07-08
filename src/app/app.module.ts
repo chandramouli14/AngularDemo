@@ -18,6 +18,7 @@ import { FormsModule } from '@angular/forms';
 import { PostAnswersComponent } from './post-answers/post-answers.component';
 import { VirtualScrollerModule } from 'ngx-virtual-scroller';
 import { EditAnswerComponent } from './edit-answer/edit-answer.component';
+import { ReplyAnswerComponent } from './reply-answer/reply-answer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +31,8 @@ import { EditAnswerComponent } from './edit-answer/edit-answer.component';
     AddQuestionComponent,
     QuestionsViewComponent,
     PostAnswersComponent,
-    EditAnswerComponent
+    EditAnswerComponent,
+    ReplyAnswerComponent
   ],
   imports: [
     BrowserModule,

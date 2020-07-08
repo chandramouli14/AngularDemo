@@ -31,7 +31,7 @@ export class EditAnswerComponent implements OnInit {
 
   saveAnswer() {
     this.question.answers.find(answer => this.answerId == answer.answerId).body = this.model.editorData
-    this.service.updateQuestion(this.question)
+    this.service.updateQuestion(this.question).subscribe(data=>console.log(data))
     alert("Your Answer is Sucessfully Updated")
     this.router.navigate([`home/question/${this.id}`])
   }
